@@ -2,15 +2,16 @@
 <html>
     <head>
         <title>Week-3-Game-Psychic-Game</title>
+        <h1>The Psychic Game</h1>
     </head>
     <body>
         <div id="game">
-            <p>Guess a letter to start playing</p>
+            <p>Guess what letter I'm thinking of</p>
             <p id="wins">Wins: 0 </p>
             <p id="losses">Losses: 0 </p>
             <p id="guessesLeft"> Guesses Left: 9 </p>
             <p id="guessCount"> Guess Count: 0 </p>
-            <p id="userGuesses">User Guesses: </p>
+            <p id="userGuesses">Your Guesses so far: </p>
             <!--<form>
               <input type="text" name="userGuesses" value="">
              </form>-->
@@ -28,7 +29,7 @@
             document.onkeyup = function(event) {
                 var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
                 userGuesses.push(userGuess);
-                document.querySelector('#userGuesses').innerHTML = "User Guesses: " + userGuesses.join(', ');
+                document.querySelector('#userGuesses').innerHTML = "Your Guesses so far: " + userGuesses.join(', ');
                
                 if (userGuess == computerGuess){
                     wins++;
