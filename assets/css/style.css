@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+  	background-image: url(../images/maxresdefault.jpg); 
+  	background-repeat: no-repeat;
+    margin-top: 0%;
+}
+
+  p {
+  font-size: 30px;
+  color: red;
+  font-family:'Deftone Stylus', cursive;}
+
+  
+  #game {
+    font-family: 'Deftone Stylus', cursive;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    text-align: right;
+    width: 50%;
+  }
+  
+  h1 {
+    font-family: 'Deftone Stylus', cursive;
+    color: red;
+    text-align: center ;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+     
+  h2 {
+    font-family: 'Deftone Stylus', cursive;
+    color: red;
+    text-align: center ;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
